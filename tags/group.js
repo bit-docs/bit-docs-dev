@@ -1,38 +1,38 @@
-var getParent = require('./helpers/getParent'),
-	tnd = require('./helpers/typeNameDescription');
+var getParent = require("bit-docs-process-tags/get-parent"),
+	tnd = require("bit-docs-type-annotate").typeNameDescription;
 	/**
 	 * @function documentjs.tags.group @group
 	 * @parent documentjs.tags
 	 *
 	 * Declares that other tags belong to a group within
 	 * the current `docObject`.
-	 * 
+	 *
 	 *
 	 * @signature `@group name [ORDER] title`
-	 * 
-	 * 
+	 *
+	 *
 	 * @param {String} name The unique name of the group.
 	 * @param {Number} [order] The placement of this group in the parent's list of children.
 	 * @param {String} title The title that should be shown in the sidebar.
-	 * 
+	 *
 	 * @body
-	 * 
+	 *
 	 * ## Use
-	 * 
+	 *
 	 * For example, in `myapp.md`, the following will create a "Guides" grouping:
-	 * 
+	 *
 	 * @codestart
 	 * @@page MyApp
 	 * @@group MyApp.guides 0 Guides
 	 * @codeend
-	 * 
+	 *
 	 * And in `guides/installing.md`, the following will add an Installing page to the "Guides" grouping:
-	 * 
+	 *
 	 * @codestart
 	 * @@page Installing
 	 * @@parent MyApp.guides
 	 * @codeend
-	 * 
+	 *
 	 *
 	 */
 	module.exports = {

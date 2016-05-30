@@ -2,14 +2,14 @@
 	 * @constructor documentjs.tags.release @release
 	 * @release 3.3
 	 * @parent documentjs.tags
-	 * 
+	 *
 	 * Specifies the release of a [documentjs.tags.param @param],
-	 * [documentjs.tags.signature @signature], 
+	 * [documentjs.tags.signature @signature],
 	 * [documentjs.tags.function @function] or
 	 * [documentjs.tags.property @property].
-	 * 
+	 *
 	 * @signature `@release RELEASE`
-	 * 
+	 *
 	 * @codestart javascript
      * /**
      *  * Retrieves a list of orders.
@@ -17,16 +17,16 @@
      *  *|
      *  find: function( params, success ) {
 	 * @codeend
-	 * 
+	 *
 	 * @param {String} RELASE A release number like: `1.2.3`.
 	 * 
 	 * @body
-	 * 
+	 *
 	 * ## Release for a param
-	 * 
+	 *
 	 * Put `@release` after `@param` to tag the param
 	 * with a release number:
-	 * 
+	 *
 	 * @codestart
      * /**
      *  * Retrieves a list of orders.
@@ -35,12 +35,12 @@
      *  *|
      *  find: function( params, success ) {
 	 * @codeend
-	 * 
+	 *
 	 * ## Release for a signature
-	 * 
+	 *
 	 * Put `@release` after `@signature` to tag the param
 	 * with a release number:
-	 * 
+	 *
 	 * @codestart
      * /**
      *  * Retrieves a list of orders.
@@ -50,8 +50,8 @@
      *  *|
      *  find: function( params, success ) {
 	 * @codeend
-	 * 
-	 * 
+	 *
+	 *
 	 */
 	module.exports = {
 		add: function( line ) {
@@ -65,9 +65,7 @@
 				} else {
 					this.release = m[1];
 				}
-				
+
 			}
 		}
 	};
-
-
