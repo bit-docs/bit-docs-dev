@@ -1,8 +1,8 @@
 var tnd = require("bit-docs-type-annotate").typeNameDescription;
 
 /**
- * @constructor documentjs.tags.deprecated @deprecated
- * @parent documentjs.tags
+ * @parent bit-docs-dev/tags
+ * @module {bit-docs-js/tag} bit-docs-dev/tags/deprecated @deprecated
  *
  * @description
  *
@@ -10,24 +10,18 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
  *
  * @signature `@deprecated {VERSION} DESCRIPTION`
  *
- * Specifies a deprecation warning for a particular version.  Multiple
+ * Specifies a deprecation warning for a particular version. Multiple
  * `@deprecated` tags can be used on a single comment.
  *
- * This warnings add to the deprecated tag on [documentjs.process.docObject]s.
+ * This warnings add to the deprecated tag on [bit-docs/types/docObject]s.
  *
+ * @param {STRING} VERSION The version the deprecation occurred within.
  *
- *
- * @param {STRING} VERSION The version the
- * deprecation occured within.
- *
- * @param {STRING} DESCRIPTION Text describing
- * the deprecation.
- *
+ * @param {STRING} DESCRIPTION Text describing the deprecation.
  *
  * @body
  *
  * ## Use
- *
  *
  * @codestart javascript
  * /**
@@ -38,7 +32,6 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
  *  * @param {String} name
  *  *|
  * @codeend
- *
  */
 module.exports = {
 	add: function(line, curData, scope, docMap){

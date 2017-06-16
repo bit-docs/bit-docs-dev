@@ -1,11 +1,10 @@
 /**
- * @constructor documentjs.tags.author @author
- * @tag documentation
- * @parent documentjs.tags
+ * @parent bit-docs-dev/tags
+ * @module {bit-docs-js/tag} bit-docs-dev/tags/author @author
  * 
  * @description 
  * 
- * Describes the author of a [documentjs.process.docObject].
+ * Describes the author of a [bit-docs/types/docObject].
  * 
  * @body
  * 

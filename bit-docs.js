@@ -1,6 +1,7 @@
 /**
- * @module {function} bit-docs-dev
  * @parent plugins
+ * @module {function} bit-docs-dev
+ * @group bit-docs-dev/tags tags
  *
  * @description General development tags.
  *
