@@ -3,8 +3,8 @@
  * @parent bit-docs-dev/tags
  * @module {bit-docs-js/tag} bit-docs-dev/tags/plugin @plugin
  * 
- * Specifies the parent [bit-docs/types/DocObject DocObject]'s name. The
- * current DocObject will be displayed under the the parent in the navigation.
+ * Specifies the parent [bit-docs/types/docObject]'s name. The current
+ * docObject will be displayed under the the parent in the navigation.
  * 
  * @signature `@plugin NAME`
  * 
