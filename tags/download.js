@@ -1,7 +1,7 @@
 	/**
 	 * @hide
 	 * @parent bit-docs-dev/tags
-	 * @module {bit-docs-js/tag} bit-docs-dev/tags/download @download
+	 * @module {bit-docs/types/tag} bit-docs-dev/tags/download @download
 	 * 
 	 * @description Adds a download link.
 	 * 

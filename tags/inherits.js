@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/inherits @inherits
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/inherits @inherits
  * 
  * Indicates that the current [bit-docs/types/docObject] inherits from another
  * [bit-docs/types/docObject].
@@ -16,7 +16,8 @@
  *  var Client = Person.extend({})
  * @codeend
  * 
- * @param {String} NAME The name of docObject the current docObject inherits from.
+ * @param {String} NAME The name of [bit-docs/types/docObject] the current
+ * [bit-docs/types/docObject] inherits from.
  */
 module.exports = {
 	add: function( line ) {

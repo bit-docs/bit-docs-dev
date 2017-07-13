@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/iframe @iframe
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/iframe @iframe
  * 
  * Adds an iframe to the page. It can be added to the 
  * [bit-docs-process-tags/tags/body @body] or any other tags that accept a

@@ -2,7 +2,7 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
 
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/deprecated @deprecated
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/deprecated @deprecated
  *
  * @description
  *

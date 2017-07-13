@@ -3,9 +3,10 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
 
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/group @group
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/group @group
  *
- * Declares that other tags belong to a group within the current `docObject`.
+ * Declares that other tags belong to a group within the current
+ * [bit-docs/types/docObject].
  *
  * @signature `@group name [ORDER] title`
  *
@@ -22,15 +23,15 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
  *
  * @codestart
  * @@page MyApp
- * @@group MyApp.guides 0 Guides
+ * @@group MyApp/guides 0 Guides
  * @codeend
  *
- * And in `guides/installing.md`, the following will add an Installing page to
- * the "Guides" grouping:
+ * Then, in `guides/installing.md`, the following will add an Installing page
+ * to the "Guides" grouping:
  *
  * @codestart
+ * @@parent MyApp/guides
  * @@page Installing
- * @@parent MyApp.guides
  * @codeend
  */
 module.exports = {

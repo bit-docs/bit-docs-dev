@@ -1,20 +1,20 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/author @author
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/author @author
  * 
- * @description 
+ * @description Describes the author of a [bit-docs/types/docObject].
  * 
- * Describes the author of a [bit-docs/types/docObject].
- * 
- * @body
- * 
- * ### Example:
+ * @signature `@author NAME`
  * 
  * @codestart javascript
  * /*
  *  * @author Justin Meyer
  *  *|
  * @codeend
+ * 
+ * @param {String} NAME The of a person or company.
+ * 
+ * @body
  */
 module.exports = {
 	add: function( line ) {

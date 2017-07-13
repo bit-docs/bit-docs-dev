@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs-js/tag} bit-docs-dev/tags/release @release
+ * @module {bit-docs/types/tag} bit-docs-dev/tags/release @release
  * @release 3.3
  *
  * Specifies the release of a [bit-docs-js/tags/param @param],
