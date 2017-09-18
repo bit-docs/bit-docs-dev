@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs/types/tag} bit-docs-dev/tags/author @author
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/author @author
  * 
  * @description Describes the author of a [bit-docs/types/docObject].
  * 
@@ -12,7 +12,7 @@
  *  *|
  * @codeend
  * 
- * @param {String} NAME The of a person or company.
+ * @param {String} NAME Typically the name of a person or an organization.
  * 
  * @body
  */

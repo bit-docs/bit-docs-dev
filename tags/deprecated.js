@@ -2,7 +2,7 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
 
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs/types/tag} bit-docs-dev/tags/deprecated @deprecated
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/deprecated @deprecated
  *
  * @description
  *
@@ -13,7 +13,7 @@ var tnd = require("bit-docs-type-annotate").typeNameDescription;
  * Specifies a deprecation warning for a particular version. Multiple
  * `@deprecated` tags can be used on a single comment.
  *
- * This warnings add to the deprecated tag on [bit-docs/types/docObject]s.
+ * This warning adds to the deprecated tag on [bit-docs/types/docObject]s.
  *
  * @param {STRING} VERSION The version the deprecation occurred within.
  *

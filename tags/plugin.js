@@ -1,7 +1,7 @@
 /**
  * @hide
  * @parent bit-docs-dev/tags
- * @module {bit-docs/types/tag} bit-docs-dev/tags/plugin @plugin
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/plugin @plugin
  * 
  * Specifies the parent [bit-docs/types/docObject]'s name. The current
  * docObject will be displayed under the the parent in the navigation.

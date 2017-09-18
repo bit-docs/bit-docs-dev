@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs/types/tag} bit-docs-dev/tags/page @page
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/page @page
  * 
  * Declares this comment as a page. Use pages to represent content that doesn't
  * belong to part of the application structure.

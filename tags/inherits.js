@@ -1,6 +1,6 @@
 /**
  * @parent bit-docs-dev/tags
- * @module {bit-docs/types/tag} bit-docs-dev/tags/inherits @inherits
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/inherits @inherits
  * 
  * Indicates that the current [bit-docs/types/docObject] inherits from another
  * [bit-docs/types/docObject].
