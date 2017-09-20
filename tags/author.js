@@ -1,21 +1,20 @@
 /**
- * @constructor documentjs.tags.author @author
- * @tag documentation
- * @parent documentjs.tags
+ * @parent bit-docs-dev/tags
+ * @module {bit-docs-process-tags/types/tag} bit-docs-dev/tags/author @author
  * 
- * @description 
+ * @description Describes the author of a [bit-docs/types/docObject].
  * 
- * Describes the author of a [documentjs.process.docObject].
- * 
- * @body
- * 
- * ### Example:
+ * @signature `@author NAME`
  * 
  * @codestart javascript
  * /*
  *  * @author Justin Meyer
  *  *|
  * @codeend
+ * 
+ * @param {String} NAME Typically the name of a person or an organization.
+ * 
+ * @body
  */
 module.exports = {
 	add: function( line ) {
