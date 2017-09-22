@@ -1,6 +1,5 @@
 var tags = {
-    "author": require("./author"),
-	demo: require("./demo"),
+  "author": require("./author"),
 	deprecated: require("./deprecated"),
 	download: require("./download"),
 	"group": require("./group"),
